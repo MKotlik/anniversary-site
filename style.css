@@ -16,6 +16,8 @@
   width: 105px;
   height: 100%;
   top: 0;
+  /*box-shadow: 0px 0px 10px 0px #989898;*/
+  border: 1px solid #CA5D3E;
 }
 .ribbon:before {
   right: 0;
@@ -29,13 +31,23 @@
 .coin {
   border: 1px solid #CA5D3E;
   border-radius: 50%;
-  background: #F0CD73;
+  background: #dbbb0f;
   width: 210px;
   height: 210px;
   position: relative;
   margin: -30px auto 0 auto;
   box-shadow: 0px 0px 3px 0px #989898;
 }
+.years {
+  text-align: center;
+  position: relative;
+  top: 0%;
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+  font-size: 10em;
+  font-weight: bold;
+  color: #ccae0e;
+}
+/*
 .coin:after {
   content: '';
   position: absolute;
@@ -47,3 +59,4 @@
   border-radius: inherit;
   box-shadow: 0 0 0 9px #D9B867;
 }
+*/
