@@ -129,6 +129,7 @@
 
 
 /*CURVED TEXT*/
+/*Creds to http://csswarp.eleqtriq.com/ for the styling*/
 
 .border>span[class^=w]:nth-of-type(n+0) {
     display: block;
